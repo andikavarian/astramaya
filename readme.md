@@ -1,4 +1,4 @@
-make sure you have nodejs and npm installed
+Make sure you have nodejs and npm installed
 we recomend you to also install yarn
 after cloning this repositoory execute
 - yarn install
