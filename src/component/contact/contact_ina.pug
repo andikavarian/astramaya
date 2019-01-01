@@ -1,0 +1,11 @@
+#contact.cta.cta--reverse
+    .container
+       .cta__inner
+            h2.cta__title Hubungi Kami
+            p.cta__sub.cta__sub--center Dapatkan aplikasi dan mulai proyek luar biasa Anda.
+            form.form(method='post', action='/example')
+                input.fakefield(name='contact')
+                input#name(type='text', name='name', placeholder='Nama')
+                input#email(type='text', name='email', placeholder='user@astramaya.id', autocomplete='off')
+                input#desc(type='text', name='description', placeholder='Pesan')
+                button.button.button__accent(type='submit') Kirim!

@@ -1,0 +1,179 @@
+doctype html
+html
+  head
+    title Astramaya | Perangkat Analisa Sosial Media
+    link(rel="stylesheet" href="main.css")
+  body
+   .navbar.navbar--extended
+  nav.nav__mobile
+  .container
+    .navbar__inner
+      a.navbar__logo(href='index.html')
+      nav.navbar__menu
+        ul
+          li
+            a(href='#') Home
+          li
+            a(href='#profile') Profile
+          li
+            a(href='#tools-analytics') Product
+          li
+            a(href='#client') Client
+          li
+            a(href='#contact') Contact
+          li
+          |                         |
+          li
+            a(href='') ID
+          li
+            a(href='') EN
+      .navbar__menu-mob
+        a#toggle(href='')
+          svg(role='img', xmlns='http://www.w3.org/2000/svg', viewBox='0 0 448 512')
+            path(fill='currentColor', d='M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z')
+
+// Hero unit
+.hero
+  .hero__overlay.hero__overlay--gradient
+  .hero__mask
+  .hero__inner
+    .container
+      .hero__content
+        #navConverter.hero__content__inner
+          h1.hero__title What this?
+          p.hero__text
+            | Companies engaged in data processing, focused on the analysis of conversation in social media coverage and mass media.
+          a.button.button__accent(href='#') Find Out More
+          a.button.hero__button(href='#') Try Apps
+.hero__sub
+  span#scrollToNext.scroll
+    svg.hero__sub__down(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', fill='currentColor', width='512px', height='512px', viewBox='0 0 512 512', style='enable-background:new 0 0 512 512;', xml:space='preserve')
+      path(d='M256,298.3L256,298.3L256,298.3l174.2-167.2c4.3-4.2,11.4-4.1,15.8,0.2l30.6,29.9c4.4,4.3,4.5,11.3,0.2,15.5L264.1,380.9c-2.2,2.2-5.2,3.2-8.1,3c-3,0.1-5.9-0.9-8.1-3L35.2,176.7c-4.3-4.2-4.2-11.2,0.2-15.5L66,131.3c4.4-4.3,11.5-4.4,15.8-0.2L256,298.3z')
+// Steps
+#profile.steps.landing__section
+  .container
+    h2 Anything I can do?
+    p Here's who we can think of, but surely creative people will surprise us.
+// Expanded sections
+#tools-analytics.expanded.landing__section
+  .container
+    .expanded__inner
+      .expanded__media
+        img.expanded__image(src='./src/asset/undraw_browser.svg')
+      .expanded__content
+        h2.expanded__title Data Access
+        p.expanded__text
+          | Provides accessable web data dashboard dashboard to see media movement. Like media coverage, twitter, online news, near realtime by using container system (container based)
+.expanded.landing__section
+  .container
+    .expanded__inner
+      .expanded__media
+        img.expanded__image(src='./src/asset/analytics.svg')
+      .expanded__content
+        h2.expanded__title Analytics
+        p.expanded__text
+          | Reliable analysts who can optimize the usefulness of the dashboard are needed to ensure data accuracy with the aim of media monitoring. Providing experienced talent, basic analytics service coverage include: Training data, analysis reports & Alerting
+.expanded.landing__section
+  .container
+    .expanded__inner
+      .expanded__media
+        img.expanded__image(src='./src/asset/together.svg')
+      .expanded__content
+        h2.expanded__title Crisis Strategy
+        p.expanded__text
+          | Advanced analysis service for more strategic and tactical needs. Analysis for phases: Preliminary study of strategy development, evaluation of results of campaign achievements, mapping of strategic social media figures / accounts all related to mass media / social media. Determination of the content of the campaign to be carried out along with response predictions. Determination of indicators of campaign success on mass media / social media
+.expanded.landing__section
+  .container
+    .expanded__inner
+      .expanded__media
+        img.expanded__image(src='./src/asset/undraw_creation.svg')
+      .expanded__content
+        h2.expanded__title Training
+        p.expanded__text
+          | Provides various training around media analysis. Training offered; training in the use of web dashboards, basic training in conversation and news analysis, along with advanced analysis training
+// Our Client
+#client.steps.landing__section
+  .container
+    h2 Our Client
+    p Here's who we can think of, but surely creative people will surprise us.
+  .container
+    .steps__inner
+      .step
+        .step__media
+          img.step__image(src='./src/asset/dpr-1.png')
+      .step
+        .step__media
+          img.step__image(src='./src/asset/kemenkeu-1.png')
+      .step
+        .step__media
+          img.step__image(src='./src/asset/bumn-1.png')
+      .step
+        .step__media
+          img.step__image(src='./src/asset/kostrad-1.png')
+      .step
+        .step__media
+          img.step__image(src='./src/asset/kemhan-1.png')
+      .step
+        .step__media
+          img.step__image(src='./src/asset/ipc-1.png')
+      .step
+        .step__media
+          img.step__image(src='./src/asset/inalum-1.png')
+
+
+// Call To Action
+#contact.cta.cta--reverse
+  .container
+    .cta__inner
+      h2.cta__title Get started now
+      p.cta__sub.cta__sub--center Grab the production apps and begin your amazing project.
+      form.form(method='post', action='/example', autocompelete='new-password', role='presentation')
+        input.fakefield(name='contact')
+        input#name(type='text', name='name', placeholder='Name')
+        input#email(type='text', name='email', placeholder='user@astramaya.id', autocomplete='off')
+        button.button.button__accent(type='submit') Hiring Me!
+
+
+// Footer
+.footer.footer--dark
+  .container
+    .footer__inner
+      img(src='./src/asset/logo.svg', width='150', height='120')
+      .footer__data
+        .footer__data__item
+          br
+          br
+          .footer__row
+            | PT. Astrabuana Sendhang Pranawa
+          .footer__row
+            | 18 Office Park 22 Floor Suite E, F, G. TB Simatupang Kav. 18 
+            br
+            | Jakarta Selatan. 12520 - Telp. +62 (21) 2200-7050
+        .footer__data__item
+          br
+          br
+          .footer__row
+            | Help 
+            a.footer__link(href='#', target='_blank') Application
+          .footer__row
+            | Carrier 
+            a.footer__link(href='#', target='_blank') With
+            |  Us
+        .footer__data__item
+          br
+          br
+          .footer__row
+            a.footer__link(href='#', target='_blank') Download Company Profile
+          .footer__row
+            a.footer__link(href='./additional.html') MIT license
+
+   
+    h1 this is from my layout
+    header(class='header')
+      block header
+    content(class='content')
+      block content
+    footer(class='footer')
+      block footer
+    
+    block scripting
